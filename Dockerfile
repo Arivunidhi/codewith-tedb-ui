@@ -1,11 +1,11 @@
-FROM node:12.2.0-alpine as build
+FROM node:14.16.1-alpine as build
 
 WORKDIR /app
 
 COPY . /app/
 
-RUN npm install --silent
-RUN npm install react-scripts@3.0.1 -g --silent
+RUN npm install
+RUN npm install react-scripts@4.0.3 -g
 
 RUN npm run build
 
