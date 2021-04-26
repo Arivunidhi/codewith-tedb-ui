@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from '../logo.png';
 import svglogo from '../logo4.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
