@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-	--primary-white: #fff;
-	--primary-orange: #f9ab00;
-	--primary-dark: rgba(255, 255, 255, 0);
+	--primary-white: rgb(255, 255, 255);
+	--primary-orange: rgb(255, 123, 15);
+	--primary-dark: #000000;
+	--primary-red: #ef4035;
+	--primary-hover-red: #f33501;
 }
 
+/***********************************BODY************************************************************/
 body {
-	font-family: 'Roboto Condesed' sans-serif;
+	font-family: 'Roboto Condesed', sans-serif;
 }
 
 /******************************************NAVBAR*********************************************************/
+
+nav {
+	z-index: 2;
+}
 .logo {
 	width: 200px;
 }
@@ -18,6 +25,13 @@ body {
 .container {
 	width: fit-content;
 }
+
+.navbar-custom {
+	background-color: var(--primary-dark);
+	border-bottom: 1px solid var(--primary-white);
+}
+
+/******************************************MENU LINK*********************************************************/
 nav a.nav-link {
 	/* font-weight: 500; */
 	letter-spacing: 0.0375rem;
@@ -41,6 +55,12 @@ nav ul li {
 	height: 6rem !important;
 }
 
+@media (max-width: 768px) {
+	.navbar-brand {
+		width: 7rem;
+	}
+}
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:active:focus {
 	border-top: 0.1875rem solid var(--primary-orange);
@@ -48,4 +68,87 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
 	border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/***********************************HEADER IMAGE************************************************************/
+.header-wrapper {
+	position: relative;
+	background: url(background.jpg) no-repeat;
+	/* opacity: 0.96; */
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+
+.main-info {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Roboto Condesed', sans-serif;
+	z-index: 1;
+}
+
+.main-info h1 {
+	color: var(--primary-orange);
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.main-info h1 {
+		font-size: 1.5rem !important;
+	}
+}
+
+/***********************************TYPED TEXT************************************************************/
+
+.typed-text {
+	font-size: 2rem;
+	color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+	.main-info h1 {
+		font-size: 1.7rem !important;
+	}
+	.typed-text {
+		font-size: 1.3rem;
+	}
+}
+
+/***********************************HEADER MAIN OFFER BUTTON************************************************************/
+.btn-main-offer {
+	border: 1px solid var(--primary-red);
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+	color: var(--primary-white);
+	margin: 2rem;
+}
+
+.btn-main-offer:hover {
+	text-decoration: none;
+	background-color: var(--primary-hover-red);
+	color: var(--primary-white);
+	transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+	.particles-canvas {
+		display: none;
+	}
+}
+/***********************************PARTICLES************************************************************/
+
+.tsparticles-canvas-el {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
 }
