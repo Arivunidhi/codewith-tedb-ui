@@ -22,19 +22,21 @@ const AboutMe = () => {
 						Python, Javascript, Bootstrap, SQL, MongoDB, Web-services, Spring
 						Boot, Security, Kafka, myBatis & Hibernate; Diverse experience
 						utilizing tools in N-tier and Microservices architecture
-						applications. Immense Devops knowledge in Dockers, Kubernetes, Git,
-						nginx, Apache httpd, Maven with cloud experience in AWS. Proficient
-						leadership and team management skills; effective team builder;
-						Ability to plan project & resources, stakeholders need, manage
-						deadlines & risks. Prototype ideas quickly using cutting edge
-						technologies. Leveraging retail banking, digital wallets & financial
-						services domain expertise including functions likes Payments,
-						Mobility, Payment Gateways, Hire-Purchase, Leasing and Loans.
-						Closely worked with engineers, architects, managers, design & QA;
-						Manage project life cycles through close-co-ordination between stake
-						holders (Business/Vendor/Operations/IT). Actively followed Agile
-						methodology (SCRUM); Played Scrum Master role; Standardized projects
-						by implementing Domain Driven Design & Continuous Integration.
+						applications. Good Knowledge in Maven, Git, AWS services - EC2, S3,
+						RDS, EKS, Lambda, Elastic Beanstalk, API Gateways and deployed
+						applications in nginx, Apache httpd, JBoss and Orchestrated Docker
+						container cluster using Kubernetes. Proficient leadership and team
+						management skills; effective team builder; Ability to plan project &
+						resources, stakeholders need, manage deadlines & risks. Prototype
+						ideas quickly using cutting edge technologies. Leveraging retail
+						banking, digital wallets & financial services domain expertise
+						including functions likes Payments, Mobility, Payment Gateways,
+						Hire-Purchase, Leasing and Loans. Closely worked with engineers,
+						architects, managers, design & QA; Manage project life cycles
+						through close-co-ordination between stake holders
+						(Business/Vendor/Operations/IT). Actively followed Agile methodology
+						(SCRUM); Played Scrum Master role; Standardized projects by
+						implementing Domain Driven Design & Continuous Integration.
 					</p>
 				</div>
 			</div>
