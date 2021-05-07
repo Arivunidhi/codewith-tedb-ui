@@ -9,6 +9,7 @@
 	--primary-red: #ef4035;
 	--primary-hover-red: #f33501;
 	--primary-light-grey: #ada9a960;
+	--primary-transparent-black: rgba(0, 0, 0, 0.7);
 }
 
 /***********************************BODY************************************************************/
@@ -241,6 +242,7 @@ nav ul li {
 	margin-bottom: 1.875rem;
 	background: var(--primary-white);
 	overflow: hidden;
+	transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -347,4 +349,81 @@ nav ul li {
 		text-align: left;
 		width: 100%;
 	}
+}
+/******************************************TESTIMONIALS*********************************************************/
+
+.testimonials {
+	/* background-image: url(../src/images/testimonials-bg.jpg); */
+	background-size: cover;
+	background-color: var(--primary-dark);
+	text-align: center;
+	padding-bottom: 4rem;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.testimonials h1 {
+	color: var(--primary-orange);
+	padding: 0.25rem 0;
+	padding-top: 3rem;
+	padding-bottom: -10rem;
+	text-transform: uppercase;
+}
+
+@media (width: 320px) {
+	.testimonials h1 {
+		color: var(--primary-orange);
+		padding: 0.25rem 0.5rem;
+		padding-top: 3rem;
+		padding-bottom: -10rem;
+		text-transform: uppercase;
+	}
+}
+.testimonials-content {
+	text-align: center;
+	max-width: 53.125rem;
+	margin: 0 auto 2rem auto;
+	background: var(--primary-dark);
+}
+
+.myCarousel {
+	color: var(--primary-white);
+	background: transparent;
+	margin-top: -10%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 13%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 15.875rem;
+	/* border: 1px solid var(--primary-light-grey); */
+}
+
+.myCarousel h3 {
+	color: var(--primary-orange);
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+.myCarousel p {
+	color: var(--primary-grey);
+	font-size: 1rem;
+}
+.carousel .slide img {
+	margin-top: 5%;
+	width: 10rem !important;
+}
+
+.carousel .slide {
+	background: transparent !important;
+	height: 100% !important;
+	padding-top: 2rem;
+}
+
+.carousel-root {
+	margin: auto !important;
+	margin-top: 3% !important;
 }
