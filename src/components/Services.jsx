@@ -10,7 +10,7 @@ const Services = () => {
 			<h1 className="py-5">my services</h1>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-3 col-sm-6">
+					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
@@ -19,12 +19,12 @@ const Services = () => {
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
 								ipsum quaerat consequatur voluptates sed, veritatis repudiandae
-								iusto! Excepturi, quaerat debitis?
+								iusto!
 							</p>
 						</div>
 					</div>
 					{/* -*/}
-					<div className="col-md-3 col-sm-6">
+					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
@@ -32,13 +32,12 @@ const Services = () => {
 							<h3>Web Development</h3>
 							<p>
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-								nam harum molestiae expedita, temporibus quod impedit nihil
-								quaerat eum obcaecati.
+								nam harum molestiae expedita,
 							</p>
 						</div>
 					</div>
 					{/* -*/}
-					<div className="col-md-3 col-sm-6">
+					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
 								<FontAwesomeIcon
@@ -50,13 +49,12 @@ const Services = () => {
 							<h3>Java Development</h3>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-								itaque provident possimus reiciendis iusto libero consectetur
-								vero nesciunt ipsam impedit.
+								itaque provident possimus reiciendis
 							</p>
 						</div>
 					</div>
 					{/* -*/}
-					<div className="col-md-3 col-sm-6">
+					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
@@ -64,8 +62,7 @@ const Services = () => {
 							<h3>AWS Development</h3>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-								itaque provident possimus reiciendis iusto libero consectetur
-								vero nesciunt ipsam impedit.
+								itaque provident possimus reiciendis
 							</p>
 						</div>
 					</div>
