@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import svglogo from '../logo4.png';
+import svglogo from '../images/logo.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-scroll';
+import {Link as RouterLink} from 'react-router-dom';
 
 export const Navbar = () => {
 	return (
@@ -29,14 +30,14 @@ export const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav ml-auto">
 						<li className="nav-item active">
-							<Link
+							<RouterLink
 								smooth={true}
-								to="header"
+								to="/home"
 								offset={-110}
 								className="nav-link"
 								href="#">
 								Home <span className="sr-only">(current)</span>
-							</Link>
+							</RouterLink>
 						</li>
 						<li className="nav-item">
 							<Link

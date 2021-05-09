@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-	--primary-white: rgb(255, 255, 255);
-	--primary-orange: rgb(253, 177, 63);
+	--primary-white: #ffffff;
+	--primary-orange: #fdb13f;
 	--primary-grey: #ccd1d9;
 	--primary-dark-grey: #666666;
 	--primary-dark: #000000;
@@ -17,6 +17,24 @@ body {
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
 
+.blog-wrapper {
+	display: 'flex';
+	justify-content: 'left';
+	align-items: 'left';
+	height: auto;
+	margin-top: 6rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.blog-wrapper h2 {
+	font-weight: bolder;
+	text-align: center;
+	color: var(--primary-orange);
+	text-transform: uppercase;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 /******************************************NAVBAR*********************************************************/
 
 nav {
@@ -86,7 +104,7 @@ nav ul li {
 /***********************************HEADER IMAGE************************************************************/
 .header-wrapper {
 	position: relative;
-	background: url(background.jpg) no-repeat;
+	background: url(/src/images/background.jpg) no-repeat;
 	/* opacity: 0.96; */
 	background-size: cover;
 	background-position: center;
@@ -128,8 +146,8 @@ nav ul li {
 .typed-text {
 	font-size: 1rem;
 	color: var(--primary-white);
-	letter-spacing: 0.5rem;
-	word-spacing: 0.2rem;
+	letter-spacing: 0.3rem;
+	word-spacing: 0.3rem;
 	margin-top: 3vh;
 }
 
@@ -182,21 +200,46 @@ nav ul li {
 }
 
 .profile-img {
-	width: 25rem;
-	border-radius: 50%;
+	width: 20rem;
+	/* border-radius: 50%; */
 	padding: 0.3rem;
-	border: 1px solid var(--primary-orange);
+	border: 2px solid var(--primary-orange);
 }
 
 .about-heading {
 	color: var(--primary-orange);
 	text-transform: uppercase;
-	font-weight: bolder;
+	/* font-weight: bolder; */
+}
+
+.about-list {
+	list-style: none; /* Remove default bullets */
+	margin-left: -2rem;
 }
 
 .about-para {
+	margin: 10px 0;
 	word-spacing: 0.1rem;
+
+	padding: 2px;
+	background-color: var(--primary-light-grey);
+	transition: transform 0.2s; /* Animation */
 }
+.about-para::before {
+	content: '\2022';
+	color: var(--primary-hover-red);
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.about-para:hover {
+	background: var(--primary-orange);
+	transform: scale(1.1);
+	/* margin: 0 auto; */
+}
+
 @media (max-width: 468px) {
 	.profile-img {
 		width: 10rem;
@@ -329,6 +372,9 @@ nav ul li {
 	font-weight: 900;
 }
 
+.para-caption {
+	font-style: italic;
+}
 @media (max-width: 768px) {
 	.experience .container {
 		padding-left: 0;
@@ -410,7 +456,7 @@ nav ul li {
 
 .myCarousel p {
 	color: var(--primary-grey);
-	font-size: 1rem;
+	font-size: 0.8rem;
 }
 .carousel .slide img {
 	margin-top: 5%;
@@ -449,4 +495,9 @@ nav ul li {
 
 .footer p {
 	margin-bottom: 0;
+}
+
+.timeline-domain {
+	color: var(--primary-orange);
+	font-weight: 600;
 }

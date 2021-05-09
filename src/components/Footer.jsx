@@ -16,20 +16,18 @@ const Footer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4 col-md-6 col-sm-6">
+						<div className="d-flex">{/* <p>Code with Tedb</p> */}</div>
 						<div className="d-flex">
-							<p>city mascow main st 2020</p>
+							<a href="tel:+919025565614">+91-9025565614</a>
 						</div>
 						<div className="d-flex">
-							<a href="tel:5555-5555">+734343434343434</a>
-						</div>
-						<div className="d-flex">
-							<p>arivunidhi90@gmail.com</p>
+							<p>arivunidhi90.info@gmail.com</p>
 						</div>
 					</div>
 					<div className="col-log-3 col-md-2 col-sm-6">
 						<div className="row">
 							<div className="col">
-								<a className="footer-nav" href="">
+								{/* <a className="footer-nav" href="">
 									Home
 								</a>
 								<br />
@@ -52,7 +50,7 @@ const Footer = () => {
 								<br />
 								<a className="footer-nav" href="">
 									Contacts
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
@@ -85,7 +83,7 @@ const Footer = () => {
 						</div>
 						<p className="pt-3 text-center">
 							Copyright&copy;
-							{new Date().getFullYear()}&nbsp;New Horizontal | All Rights
+							{new Date().getFullYear()}&nbsp;Codewith-TedB | All Rights
 							Reserved
 						</p>
 					</div>

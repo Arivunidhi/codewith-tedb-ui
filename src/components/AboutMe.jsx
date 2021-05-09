@@ -1,5 +1,5 @@
 import React from 'react';
-import author from '../me.jpg';
+import author from '../images/about-me.JPEG';
 
 const AboutMe = () => {
 	return (
@@ -12,7 +12,35 @@ const AboutMe = () => {
 				</div>
 				<div className="col-lg-6 col-xm-12">
 					<h1 className="about-heading">about me</h1>
-					<p className="about-para">
+					<ul className="about-list">
+						<li className="about-para">
+							Hello! I am Arivunidhi. Software Developer with 8+ years’
+							Experience in Enterprise-level Implementation of SDLC, including
+							Architecture, Functional, Technical Design & Full stack
+							Development.
+						</li>
+						<li className="about-para">
+							Core expertise in Java, J2EE, React, Python, Javascript,
+							Bootstrap, SQL, MongoDB, Web-services, Spring, Spring Boot,
+							Security, Kafka, Redis, myBatis & Hibernate.
+						</li>
+						<li className="about-para">
+							Proficient in Maven, Git, AWS services - EC2, S3, RDS, EKS,
+							Lambda, Elastic Beanstalk, API Gateways, Microservices and
+							deployed applications in nginx, Apache httpd, JBoss and
+							Orchestrated Docker container cluster using Kubernetes.
+						</li>
+						<li className="about-para">
+							Actively followed Agile methodology (SCRUM); Played Scrum Master
+							role; Standardized projects by implementing CI/CD.
+						</li>
+						<li className="about-para">
+							Oracle Certified Java Programmer, SCRUM Fundamental & MongoDB
+							Basics Certified
+						</li>
+					</ul>
+
+					{/* <p className="about-para">
 						Hello! I am Arivunidhi. A dynamic professional with 8+ years’
 						experience in enterprise-level implementation of the Software
 						Development Life-Cycle (SDLC), including Architecture, Functional
@@ -37,7 +65,7 @@ const AboutMe = () => {
 						(Business/Vendor/Operations/IT). Actively followed Agile methodology
 						(SCRUM); Played Scrum Master role; Standardized projects by
 						implementing Domain Driven Design & Continuous Integration.
-					</p>
+					</p> */}
 				</div>
 			</div>
 		</div>

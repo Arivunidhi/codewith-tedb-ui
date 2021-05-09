@@ -3,6 +3,7 @@ import React from 'react';
 import {faFacebookF, faGoogle} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faDesktop, faFileCode} from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom';
 
 const Services = () => {
 	return (
@@ -15,12 +16,13 @@ const Services = () => {
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
 							</div>
-							<h3>Web Design</h3>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-								ipsum quaerat consequatur voluptates sed, veritatis repudiandae
-								iusto!
-							</p>
+
+							<h3>Front-End</h3>
+							<p>{`Learn frond end technologies like HTML5, 
+							CSS3,
+							BootStrap,
+							JavaScript(ES6),
+							React`}</p>
 						</div>
 					</div>
 					{/* -*/}
@@ -29,10 +31,14 @@ const Services = () => {
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
 							</div>
-							<h3>Web Development</h3>
+							<h3>Back-End</h3>
 							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-								nam harum molestiae expedita,
+								{`Learn back end technologies like Java,
+								J2EE,
+								Spring,
+								Hibernate,
+								Webservices,
+								Microservices`}
 							</p>
 						</div>
 					</div>
@@ -46,10 +52,17 @@ const Services = () => {
 									size="2x"
 								/>
 							</div>
-							<h3>Java Development</h3>
+							<h3>DevOps</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-								itaque provident possimus reiciendis
+								{`Learn DevOps technologies like Kubernetes,
+								Docker,
+								Git,
+								Kafka,
+								Maven,
+								AWS,
+								nginx,
+								JBoss,
+								Heroku`}
 							</p>
 						</div>
 					</div>
@@ -59,10 +72,13 @@ const Services = () => {
 							<div className="cirlce">
 								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
 							</div>
-							<h3>AWS Development</h3>
+							<h3>Others</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-								itaque provident possimus reiciendis
+								{`Learn Other technologies like SQL,
+								MongoDB,
+								Python,
+								Datastructures,
+								Algorithm, Agile (SRUM)`}
 							</p>
 						</div>
 					</div>

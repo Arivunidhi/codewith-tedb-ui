@@ -1,46 +1,25 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar} from './components/Navbar';
-import Header from './components/Header';
 import React from 'react';
-import Particles from 'react-particles-js';
+import {Route, Switch, Redirect} from 'react-router-dom';
+import Home from './components/Home';
+import BlogPost from './components/BlogPost';
 import AboutMe from './components/AboutMe';
-import Services from './components/Services';
-import Experience from './components/Experience';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
 
 function App() {
 	return (
 		<React.Fragment>
-			<Particles
-				className="particles-canvas"
-				params={{
-					particles: {
-						number: {
-							value: 30,
-							density: {
-								enable: true,
-								value_area: 900,
-							},
-						},
-						shape: {
-							type: 'star',
-							stroke: {
-								width: 2,
-								color: '#f9ab00',
-							},
-						},
-					},
-				}}
-			/>
 			<Navbar />
-			<Header />
-			<AboutMe />
-			<Services />
-			<Experience />
-			<Testimonials />
-			<Footer />
+
+			<Switch>
+				{/* <Route path="/products/:id" component={ProductDetails} /> */}
+				{/* <Route path="/not-found" component={NotFound} /> */}
+				<Route path="/blog" exact component={BlogPost} />
+				<Route path="/home" exact component={Home} />
+				<Route path="/" exact component={Home} />
+				{/* <Redirect to="/not-found" /> */}
+			</Switch>
 		</React.Fragment>
 	);
 }
