@@ -16,9 +16,11 @@ const Footer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4 col-md-6 col-sm-6">
-						<div className="d-flex">{/* <p>Code with Tedb</p> */}</div>
 						<div className="d-flex">
-							<a href="tel:+919025565614">+91-9025565614</a>
+							<p>Contact us @</p>
+						</div>
+						<div className="d-flex">
+							{/* <a href="tel:+919025565614">+91-9025565614</a> */}
 						</div>
 						<div className="d-flex">
 							<p>arivunidhi90.info@gmail.com</p>
@@ -82,7 +84,7 @@ const Footer = () => {
 							</LinkedinShareButton>
 						</div>
 						<p className="pt-3 text-center">
-							Copyright&copy;
+							Copyright &copy;
 							{new Date().getFullYear()}&nbsp;Codewith-TedB | All Rights
 							Reserved
 						</p>

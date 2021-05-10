@@ -1,12 +1,15 @@
 import React from 'react';
-import author from '../images/about-me.JPEG';
+import TopNav from './TopNav';
 
 const BlogPost = () => {
 	return (
-		<div id="blog" className="blog-wrapper">
-			<h2>Technical Blog</h2>
-			<p>Coming Soon ...!!! </p>
-		</div>
+		<React.Fragment>
+			<TopNav isHome={true} />
+			<div id="blog" className="blog-wrapper">
+				<h2>Technical Blog</h2>
+				<p>Coming Soon ...!!! </p>
+			</div>
+		</React.Fragment>
 	);
 };
 

@@ -1,9 +1,8 @@
 import React from 'react';
 
-import {faFacebookF, faGoogle} from '@fortawesome/free-brands-svg-icons';
+import {faHtml5, faUbuntu, faJava} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faDesktop, faFileCode} from '@fortawesome/free-solid-svg-icons';
-import {Link} from 'react-router-dom';
+import {faCloud} from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 	return (
@@ -14,7 +13,7 @@ const Services = () => {
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
-								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
+								<FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
 							</div>
 
 							<h3>Front-End</h3>
@@ -29,7 +28,7 @@ const Services = () => {
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
-								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
+								<FontAwesomeIcon className="icon" icon={faJava} size="2x" />
 							</div>
 							<h3>Back-End</h3>
 							<p>
@@ -46,11 +45,7 @@ const Services = () => {
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
-								<FontAwesomeIcon
-									className="icon"
-									icon={faFacebookF}
-									size="2x"
-								/>
+								<FontAwesomeIcon className="icon" icon={faUbuntu} size="2x" />
 							</div>
 							<h3>DevOps</h3>
 							<p>
@@ -70,7 +65,7 @@ const Services = () => {
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="cirlce">
-								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+								<FontAwesomeIcon className="icon" icon={faCloud} size="2x" />
 							</div>
 							<h3>Others</h3>
 							<p>

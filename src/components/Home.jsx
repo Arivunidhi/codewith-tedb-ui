@@ -6,10 +6,12 @@ import Footer from './Footer';
 import Header from './Header';
 import Services from './Services';
 import Testimonials from './Testimonials';
+import TopNav from './TopNav';
 
 const Home = () => {
 	return (
 		<React.Fragment>
+			<TopNav />
 			<Particles
 				className="particles-canvas"
 				params={{

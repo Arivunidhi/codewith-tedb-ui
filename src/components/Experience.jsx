@@ -17,9 +17,10 @@ const Experience = () => {
 						</p>
 						<p className="timeline-domain">Engineering Automation</p>
 						<p>{`HTML5,CSS3,JavaScript(ES6),React,BootStrap,
-						Java,J2EE,Spring,Hibernate,Webservices,Microservices,
-						Kubernetes,Docker,Git,Kafka,
-						Maven,AWS,nginx,SQL,MongoDB,Python,Azure`}</p>
+						Java,J2EE,Spring,Hibernate,Webservices,
+						Microservices,Kubernetes,Docker
+						,Git,Kafka,Maven,AWS,nginx,SQL,
+						MongoDB,Python,Azure`}</p>
 					</div>
 				</div>
 				{/*  */}
