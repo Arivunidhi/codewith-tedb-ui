@@ -78,13 +78,13 @@ const TestimonialsCarousel = () => {
 					</p>
 				</div>
 			</>
-			<>
-				{/* <img src={client6} alt="Caterpillar" />
+			{/* <>
+				<img src={client6} alt="Caterpillar" />
 				<div className="myCarousel">
 					<h3>Caterpillar Inc.</h3>
 					<p>Engineering Automation tool development.</p>
-				</div> */}
-			</>
+				</div>
+			</> */}
 		</Carousel>
 	);
 };
