@@ -19,9 +19,10 @@ const Header = () => {
 					backSpeed={60}
 					loop
 				/>
-				<Link to="https://codewith-tedb.blogspot.com/" className="btn-main-offer">
+				{/* <Link to="https://codewith-tedb.blogspot.com/" className="btn-main-offer">
 					start Learning
-				</Link>
+				</Link> */}
+				<a href="https://codewith-tedb.blogspot.com/" className="btn-main-offer">start Learning</a>
 			</div>
 		</div>
 	);
