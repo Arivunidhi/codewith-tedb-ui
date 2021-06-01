@@ -31,8 +31,7 @@ const AboutMe = () => {
 							Orchestrated Docker container cluster using Kubernetes.
 						</li>
 						<li className="about-para">
-							Actively followed Agile methodology (SCRUM); Played Scrum Master
-							role; Standardized projects by implementing CI/CD.
+							Actively followed Agile methodology (SCRUM); Standardized projects by implementing CI/CD.
 						</li>
 						<li className="about-para">
 							Oracle Certified Java Programmer, SCRUM Fundamental & MongoDB
