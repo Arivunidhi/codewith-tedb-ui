@@ -37,7 +37,7 @@ const Home = () => {
 			<AboutMe />
 			<Services />
 			<Experience />
-			<Testimonials />
+			{/* <Testimonials /> */}
 			<Footer />
 		</React.Fragment>
 	);

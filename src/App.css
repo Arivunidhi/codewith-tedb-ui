@@ -135,8 +135,36 @@ nav ul li {
 	word-spacing: 0.5rem;
 }
 
+.main-info h2 {
+	color: var(--primary-white);
+	/* text-transform: uppercase; */
+	font-weight: 900;
+	/* text-shadow: 2px 2px 4px var(--primary-hover-red); */
+	font-size: 2rem;
+	letter-spacing: 0.5rem;
+	word-spacing: 0.1rem;
+}
+
+.main-info h2 span {
+	color: var(--primary-orange);
+	/* text-transform: uppercase; */
+	font-weight: 900;
+	/* text-shadow: 2px 2px 4px var(--primary-hover-red); */
+	font-size: 2rem;
+	letter-spacing: 0.5rem;
+	word-spacing: 0.1rem;
+}
+
 @media (max-width: 768px) {
 	.main-info h1 {
+		font-size: 1.5rem !important;
+	}
+
+	.main-info h2 {
+		font-size: 1.5rem !important;
+	}
+
+	.main-info h2 span{
 		font-size: 1.5rem !important;
 	}
 }
@@ -153,6 +181,12 @@ nav ul li {
 
 @media (max-width: 768px) {
 	.main-info h1 {
+		font-size: 1.7rem !important;
+	}
+	.main-info h2 {
+		font-size: 1.7rem !important;
+	}
+	.main-info h2 span{
 		font-size: 1.7rem !important;
 	}
 	.typed-text {

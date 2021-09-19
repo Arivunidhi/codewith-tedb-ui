@@ -6,7 +6,8 @@ const Header = () => {
 	return (
 		<div id="header" className="header-wrapper">
 			<div className="main-info">
-				<h1>Welcome to Codewith-TedB</h1>
+				<h2>Hello, I'm <span id="name">Arivunidhi.</span></h2>
+				<h2>I'm a full-stack java developer.</h2>
 				<Typed
 					className="typed-text"
 					strings={[
@@ -22,7 +23,8 @@ const Header = () => {
 				{/* <Link to="https://codewith-tedb.blogspot.com/" className="btn-main-offer">
 					start Learning
 				</Link> */}
-				<a href="https://codewith-tedb.blogspot.com/" className="btn-main-offer">start Learning</a>
+				{/* <a href="https://codewith-tedb.blogspot.com/" className="btn-main-offer">About Me</a> */}
+				
 			</div>
 		</div>
 	);

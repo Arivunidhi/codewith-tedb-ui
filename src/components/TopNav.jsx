@@ -101,7 +101,7 @@ export default class TopNav extends Component {
 								</Link>
 							</li>
 
-							<li className="nav-item">
+							{/* <li className="nav-item">
 								<Link
 									smooth={true}
 									onClick={this.toggleMenu}
@@ -111,7 +111,7 @@ export default class TopNav extends Component {
 									href="#">
 									Clients
 								</Link>
-							</li>
+							</li> */}
 							<li className="nav-item">
 								<Link
 									smooth={true}

@@ -72,8 +72,7 @@ const Services = () => {
 								{`Learn Other technologies like SQL,
 								MongoDB,
 								Python,
-								Datastructures,
-								Algorithm, Agile (SRUM)`}
+								TDD/BDD, Agile (SRUM)`}
 							</p>
 						</div>
 					</div>
