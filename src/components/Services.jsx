@@ -7,7 +7,7 @@ import {faCloud} from '@fortawesome/free-solid-svg-icons';
 const Services = () => {
 	return (
 		<div id="service" className="services">
-			<h1 className="py-5">my services</h1>
+			<h1 className="py-5">my expertise</h1>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-3 col-md-6 col-sm-6">
@@ -17,11 +17,11 @@ const Services = () => {
 							</div>
 
 							<h3>Front-End</h3>
-							<p>{`Learn frond end technologies like HTML5, 
+							<p>{`HTML5, 
 							CSS3,
 							BootStrap,
 							JavaScript(ES6),
-							React`}</p>
+							React, Angular`}</p>
 						</div>
 					</div>
 					{/* -*/}
@@ -32,12 +32,12 @@ const Services = () => {
 							</div>
 							<h3>Back-End</h3>
 							<p>
-								{`Learn back end technologies like Java,
+								{`Java,
 								J2EE,
-								Spring,
+								Spring Boot,
 								Hibernate,
 								Webservices,
-								Microservices`}
+								Microservices,Junit, Mockito,Python.`}
 							</p>
 						</div>
 					</div>
@@ -49,14 +49,14 @@ const Services = () => {
 							</div>
 							<h3>DevOps</h3>
 							<p>
-								{`Learn DevOps technologies like Kubernetes,
+								{`Kubernetes,
 								Docker,
-								Git,
+								Git, Gradle,
 								Kafka,
 								Maven,
 								AWS,
 								nginx,
-								JBoss,
+								JBoss,Jenkins,
 								Heroku`}
 							</p>
 						</div>
@@ -69,9 +69,9 @@ const Services = () => {
 							</div>
 							<h3>Others</h3>
 							<p>
-								{`Learn Other technologies like SQL,
+								{`SQL,
 								MongoDB,
-								Python,
+								Jira, Rally, 
 								TDD/BDD, Agile (SRUM)`}
 							</p>
 						</div>

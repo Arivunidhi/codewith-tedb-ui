@@ -42,7 +42,7 @@ const Experience = () => {
 				<div className="timeline-block timeline-block-right">
 					<div className="marker"></div>
 					<div className="timeline-content">
-						<h3>2012-2019</h3>
+						<h3>2015-2019</h3>
 						<p>
 							<strong>Tagit India Pvt Ltd.</strong>
 						</p>
@@ -56,6 +56,23 @@ const Experience = () => {
 				</div>
 				{/*  */}
 				<div className="timeline-block timeline-block-left">
+					<div className="marker"></div>
+					<div className="timeline-content">
+						<h3>2012-2015</h3>
+						<p>
+							<strong>Mavens-i Softech Solutions Pvt Ltd.</strong>
+						</p>
+						<p className="timeline-domain">
+							Banking
+						</p>
+						<p>
+							{`Java, Oracle, SOAP/REST Web services, MyBatis, Apache 2.4, JBoss EAP, ISO-8583, MSSQL, Hibernate, Spring Core, Spring MVC, Spring AOP, Maven, Mobeix.`}
+						</p>
+					</div>
+				</div>
+				{/*  */}
+				
+				<div className="timeline-block timeline-block-right">
 					<div className="marker"></div>
 					<div className="timeline-content">
 						<h3>2012-2012</h3>

@@ -86,7 +86,7 @@ export default class TopNav extends Component {
 									offset={-91}
 									className="nav-link"
 									href="#">
-									Services
+									Expertise
 								</Link>
 							</li>
 							<li className="nav-item">
